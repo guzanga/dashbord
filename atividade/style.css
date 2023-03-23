@@ -1,0 +1,67 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#pai{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+
+
+#lado-esquerdo{
+    background-color: blue;
+    height: 100vh;
+}
+#lado-direito{
+    background-color: brown;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 3fr 3fr 6fr;
+}
+
+.a{
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+.b{
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.c{
+    background-color: darkslategray;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.d{
+    background-color: dimgrey;
+}
+
+.e{
+    background-color: darkkhaki;
+}
+.f{
+    background-color: coral;
+}
+.g{
+    background-color: cornflowerblue;
+}
+.h{
+    background-color: darkgreen;
+}
+.i{
+    background-color: cornsilk;
+}
+.j{
+    background-color: aquamarine;
+}
+.k{
+    background-color: azure;
+}
